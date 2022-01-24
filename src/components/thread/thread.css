@@ -1,0 +1,40 @@
+.threadBody{
+    background-color: rgb(142, 209, 145);
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 9px 0px rgba(0,0,0,0.75);
+   border-radius: 8px;
+
+}
+.nextButton{
+    background-color: inherit;
+
+}
+#postBody{
+    overflow: scroll;
+}
+.nextButton:hover{
+    color: blue;
+    cursor: pointer;
+
+}
+.threadtittle{
+    font-size: large;
+    font-weight: bolder;
+}
+.buttonSection{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background-color: inherit;
+}
+.buttons{
+    background-color: inherit;
+}
+.buttons:hover{
+    color: aqua;
+    background-color: rgb(89, 184, 92);
+    cursor: pointer;
+
+}

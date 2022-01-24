@@ -1,0 +1,17 @@
+.addThreadForm{
+    background-color:red;
+}
+.newThreadInput{
+    border: none;
+}
+.newThreadInput:focus{
+    outline: none;
+}
+.userName{
+    color: blue;
+    font-weight: bold;
+}
+.feeds{
+    background-color: cadetblue;
+    padding: 20px;
+}
